@@ -1,58 +1,51 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Somesh Portfolio</title>
+    <title>Sanu Website</title>
     <link rel="icon" type="image/png" href="Sanu.jpg">
-    <link rel="stylesheet" href="style.css">
-    <!---font awesome cdn font icon css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <div class="hero-header">
-        <div class="wrapper">
-            <header>
-                <div class="logo">
-                    <i class="fa-solid fa-">S</i>
-                    <div class="logo-text">Somesh Ranjan Biswal</div>
-                </div>
-                <nav>
+   
 
-                    <div class="togglebt">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div> 
+    <div class="content">
+        <header>
+            <nav>
                 <ul class="navlinks">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/test.html#">Home</a></li>
                     <li><a href="#">Portfolio</a></li>
-                    <li><a href="My Resume (1).pdf">Resume</a></li>
-                    <li><a href="https://medium.com/@someshranjanbiswal13678/the-role-of-database-management-systems-in-modern-applications-efficiently-725f0e87cdcf">Blog</a></li>
-                    <li><a href="mailto:someshranjanbiswal13678@gmail.com">Contact</a></li>
-                    
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <!-- <li><a href="#">Contact</a></li> -->
                 </ul>
             </nav>
-            </header>
-            <div class="container">
-                <div class="hero-pic">
-                    <img class="he-pic" src="photo_2024-08-26_18-50-54.jpg" alt="profile pic">
-                </div>
-                <div class="hero-text">
-                    <h5>Hi I'm <span class="">Full Stack Web-Developer</span></h5>
-                    <h1>Sanu</h1>
-                    <p>Welcome to the creative world of Somesh Ranjan Biswal! With a passion for gaming and innovating different items, I specialize in creating engaging and educational content for young minds. My work is to help people in different activities like promoting and giving the actual knowledge, I am a E-sports player in  state level and played many tournamnets for my city and my state in national levels!</p>
+        </header>
+        <div class="video-container">
+            <video src="vd.mp4" autoplay muted loop></video>
+        </div>
+        <div class="container">
+            <div class="hero-pic">
+                <img class="he-pic" src="photo_2024-08-26_18-50-54.jpg" alt="profile pic">
+            </div>
+            <div class="hero-text">
+                <h5>Hi, I'm <span>Full Stack Web-Developer</span></h5>
+                <h1>Sanu</h1>
+                <p>Welcome to the creative world of Somesh Ranjan Biswal! With a passion for gaming and innovating different items, I specialize in creating engaging and educational content for young minds. My work is to help people in different activities like promoting and giving the actual knowledge, I am an E-sports player at the state level and have played many tournaments for my city and state at national levels!</p>
                 <div class="btn-group">
-                    <a href="My Resume (1).pdf" class="btn active">Download CV</a>
+                    <a href="#" class="btn active">Download CV</a>
                     <a href="mailto:someshranjanbiswal@outlook.com" class="btn">Contact</a>
-                </div> 
-                <div class="social accounts">
+                </div>
+                <div class="social-accounts">
                     <a href="https://www.facebook.com/profile.php?id=100075721869413" target="_blank">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="width:20px;height:20px;">
                     </a>
-                        <a href="mailto:someshranjanbiswal13678@gmail.com" style="text-decoration: none;">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email Icon" style="width: 20px; height: 20px;"></i>
+                    <a href="mailto:someshranjanbiswal13678@gmail.com" style="text-decoration: none;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email Icon" style="width: 20px; height: 20px;">
                     <a href="https://www.instagram.com/_saanuuuu___/" target="_blank">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 20px; height: 20px;">
                     </a>
@@ -63,135 +56,17 @@
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Quora_icon.svg/128px-Quora_icon.svg.png" alt="Quora" style="width: 20px; height: 20px;">
                     </a>
                 </div>
-                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <div class="footer-content">
-            <h3>Somesh Ranjan Biswal</h3>
-            <p>Thank you for visiting my portfolio. Feel free to connect with me on social media or reach out directly.</p>
-            <ul class="socials">
-                <li><a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/ei-sanu/ei-sanu" target="_blank">GitHub</a></li>
-                <li><a href="https://x.com/SomeshR82674271" target="_blank">Twitter</a></li>
-                <li><a href="mailto:someshranjanbiswal13678@gmail.com">Email</a></li>
-            </ul>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Somesh Ranjan Biswal. All Rights Reserved.</p>
-        </div>
-    </footer>
-    <script>
-        var togglebtn=document.querySelector(".togglebtn");
-        var nav=document.querySelector(".navlinks");
-        var links=document.querySelector(".navlinks li");
-
-        togglebtn.addEventListener("click", function(){
-            this.classList.toggle("click");
-            nav.classList.toggle("open");
-        })
-        
-    </script>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <footer>
+            <div class="footer-content">
+                <p>Thank you for visiting my portfolio. Feel free to connect with me on social media or reach out directly.</p>
+                <ul class="socials">
+                    <li><a href="https://www.linkedin.com/in/your-linkedin" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="linkedin" style="width: 25px; height: 25px;"></a></li>
+                    <li><a href="https://github.com/ei-sanu/ei-sanu" target="_blank"><img src="https://img.icons8.com/?size=100&id=bVGqATNwfhYq&format=png&color=000000" alt="github" style="width: 25px; height: 25px;"></a></li>
+                        <div class="footer-bottom">
+                            <p>&copy; 2024 Somesh Ranjan Biswal. All Rights Reserved.</p>
+                        </div>
+                    </footer>
+                </body>
 </html>
